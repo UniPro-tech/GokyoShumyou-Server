@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="38ZSjATZTCBm9n9e23Pm" name="ページ1">
-        <mxGraphModel dx="352" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+        <mxGraphModel dx="140" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -99,19 +99,19 @@
                 <mxCell id="41" value="" style="edgeStyle=none;html=1;" parent="1" source="35" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="DBにポストされたデータを置く。" style="whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;rounded=1;" parent="1" vertex="1">
+                <mxCell id="35" value="DBにポストされたデータを置く。" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;strokeWidth=2;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="-1350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="40" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="150" y="-1220" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="" style="edgeStyle=none;html=1;" parent="1" source="42" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="DBの該当する&lt;br&gt;データを削除。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                <mxCell id="42" value="DBの該当する&lt;br&gt;データを削除。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
                     <mxGeometry x="290" y="-1345" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="44" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;rounded=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="300" y="-1230" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="" style="edgeStyle=none;html=1;startArrow=none;" parent="1" source="69" target="52" edge="1">
@@ -158,16 +158,16 @@
                 <mxCell id="63" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
                     <mxGeometry x="25" y="-945" width="80" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="" style="edgeStyle=none;html=1;endArrow=none;" edge="1" parent="1" target="69">
+                <mxCell id="70" value="" style="edgeStyle=none;html=1;endArrow=none;" parent="1" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="70.27027027027026" y="-1280" as="sourcePoint"/>
                         <mxPoint x="65" y="-1207.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0;arcSize=14;glass=0;" vertex="1" parent="1">
+                <mxCell id="69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0;arcSize=14;glass=0;" parent="1" vertex="1">
                     <mxGeometry x="15" y="-1345" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;DBから&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;待ち時間が長い人のデータを出す。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+                <mxCell id="71" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;DBから&lt;/span&gt;&lt;br style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;待ち時間が長い人のデータを出す。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
                     <mxGeometry x="25" y="-1345" width="80" height="60" as="geometry"/>
                 </mxCell>
             </root>
