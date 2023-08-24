@@ -11,10 +11,6 @@ const db = deta.Base("waitinglist");
 /* GET users listing. */
 router.get("/", async (req, res, next) => {
   console.log("GET /v0/waitinglist");
-  if (req.body.token == null || req.body.token == process.env.TOKEN) {
-    const data = { status: 403, msg: "Fraudulent token" };
-    res.status(403).json(data);
-  }
   try {
     let latest_num_data = await db.fetch({ key: "latest" });
     const zero_data = await db.fetch({ num: latest_num_data.items[0].num });
@@ -39,10 +35,6 @@ router.get("/", async (req, res, next) => {
 });
 router.post("/", async (req, res, next) => {
   console.log("POST /v0/waitinglist " + req.body);
-  if (req.body.token == null || req.body.token == process.env.TOKEN) {
-    const data = { status: 403, msg: "Fraudulent token" };
-    res.status(403).json(data);
-  }
   let putObj = req.body;
   try {
     const result = await db.put(putObj, { expireIn: 500 });
@@ -55,10 +47,6 @@ router.post("/", async (req, res, next) => {
 });
 router.delete("/", async (req, res, next) => {
   console.log("DELETE /v0/waitinglist" + req.body);
-  if (req.body.token == null || req.body.token == process.env.TOKEN) {
-    const data = { status: 403, msg: "Fraudulent token" };
-    res.status(403).json(data);
-  }
   const key = req.body.key;
   const result = await db.delete(key);
   if (result) throw result;
